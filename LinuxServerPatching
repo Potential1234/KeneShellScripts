@@ -1,0 +1,6 @@
+#!/bin/bash
+# Patching linux server and installing httpd script
+yum update
+sleep 5
+yum install httpd -y
+systemctl enable --now httpd
