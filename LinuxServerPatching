@@ -6,3 +6,4 @@ yum install httpd -y
 systemctl enable --now httpd
 #End of Script
 #More Script writing will be added soon
+#echo " *****Open and edit the file /etc/default/grub and set GRUB_DEFAULT=0. This means that the first kernel in the GRUB initial screen will be used as
