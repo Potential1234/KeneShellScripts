@@ -5,3 +5,4 @@ sleep 5
 yum install httpd -y
 systemctl enable --now httpd
 #End of Script
+#More Script writing will be added soon
